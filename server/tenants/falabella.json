@@ -1,0 +1,49 @@
+{
+  "sponsorId": "falabella",
+  "subdominio": "falabella",
+  "nombreVisible": "Seguros Falabella",
+  "countryId": "CL",
+  "modo": "mock",
+  "activo": true,
+  "lastModifiedBy": "Felipe Nelargo",
+  "lastModifiedAt": "2026-09-15T17:10:44.367Z",
+  "tema": {
+    "logoUrl": "/logos/mawdy.svg",
+    "fuente": "Plus Jakarta Sans",
+    "colores": {
+      "primary": "#006194",
+      "secondary": "#006a63",
+      "accent": "#007bb9",
+      "background": "#fbf9f5",
+      "surface": "#ffffff",
+      "foreground": "#1c1917"
+    },
+    "iconos": {},
+    "fichaMascota": {}
+  },
+  "credenciales": {
+    "businessClientId": "FALABELLA_CL",
+    "clientIdEnvVar": "FALABELLA_CLIENT_ID",
+    "clientSecretEnvVar": "FALABELLA_CLIENT_SECRET"
+  },
+  "productoAma": {
+    "productoId": "AMA-PET-FALABELLA-01",
+    "codigoProductoAma": "AMA-PET-FAL-01",
+    "nombreProducto": "Seguro Falabella Mascotas Total",
+    "colectivoPolizaMarco": "POL-FALABELLA-CMR-2026",
+    "lineaAsistencia": "Mascotas Domésticas CMR",
+    "servicios": [
+      {
+        "id": "srv-fal-1",
+        "nombre": "Urgencia Canina & Felina Falabella",
+        "descripcion": "Atención médica prioritaria en clínicas convenio Falabella",
+        "icono": "Siren",
+        "codigoServicio": "CONSULTA_URGENTE",
+        "codigoGarantia": "GAR_FAL_01",
+        "limiteEventos": "4 eventos / año",
+        "copagoOTope": "100% Sin Copago",
+        "activo": true
+      }
+    ]
+  }
+}

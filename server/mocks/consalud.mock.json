@@ -1,0 +1,307 @@
+{
+  "polizas": [
+    {
+      "numeroPoliza": "CS-PET-2024-00147",
+      "sponsorId": "consalud",
+      "businessContractId": "BC-CONSALUD-001",
+      "estado": "activa",
+      "asegurado": {
+        "insuredId": 100001,
+        "businessContractId": "BC-CONSALUD-001",
+        "name": "María Fernanda",
+        "lastName": "González Rojas",
+        "idNum": "12.345.678-9",
+        "policy": "CS-PET-2024-00147",
+        "address": "Av. Providencia 1234, Depto 502",
+        "province": "Región Metropolitana",
+        "locality": "Providencia",
+        "postalCode": "7500000",
+        "countryCd": "CL",
+        "age": 34,
+        "email": "maria.gonzalez@email.cl",
+        "phone": "+56912345678"
+      },
+      "mascota": {
+        "riesgoId": "R-CS-00147-01",
+        "nombre": "Luna",
+        "especie": "perro",
+        "raza": "Golden Retriever",
+        "fechaNacimiento": "2021-03-15",
+        "sexo": "hembra",
+        "pesoKg": 28.5,
+        "colorSenasParticulares": "Dorado claro, mancha blanca en el pecho",
+        "microchip": "985112000345678"
+      }
+    },
+    {
+      "numeroPoliza": "CS-PET-2024-00147",
+      "sponsorId": "consalud",
+      "businessContractId": "BC-CONSALUD-001",
+      "estado": "activa",
+      "asegurado": {
+        "insuredId": 100001,
+        "businessContractId": "BC-CONSALUD-001",
+        "name": "María Fernanda",
+        "lastName": "González Rojas",
+        "idNum": "12.345.678-9",
+        "policy": "CS-PET-2024-00147",
+        "address": "Av. Providencia 1234, Depto 502",
+        "province": "Región Metropolitana",
+        "locality": "Providencia",
+        "postalCode": "7500000",
+        "countryCd": "CL",
+        "age": 34,
+        "email": "maria.gonzalez@email.cl",
+        "phone": "+56912345678"
+      },
+      "mascota": {
+        "riesgoId": "R-CS-00147-02",
+        "nombre": "Rocky",
+        "especie": "perro",
+        "raza": "Bulldog Francés",
+        "fechaNacimiento": "2022-09-10",
+        "sexo": "macho",
+        "pesoKg": 12.4,
+        "colorSenasParticulares": "Atigrado oscuro con corbata blanca en el pecho",
+        "microchip": "985112000345679"
+      }
+    },
+    {
+      "numeroPoliza": "CS-PET-2024-00293",
+      "sponsorId": "consalud",
+      "businessContractId": "BC-CONSALUD-001",
+      "estado": "activa",
+      "asegurado": {
+        "insuredId": 100002,
+        "businessContractId": "BC-CONSALUD-001",
+        "name": "Andrés Esteban",
+        "lastName": "Muñoz Soto",
+        "idNum": "15.678.901-2",
+        "policy": "CS-PET-2024-00293",
+        "address": "Calle Los Leones 890",
+        "province": "Región Metropolitana",
+        "locality": "Las Condes",
+        "postalCode": "7550000",
+        "countryCd": "CL",
+        "age": 41,
+        "email": "andres.munoz@correo.cl",
+        "phone": "+56987654321"
+      },
+      "mascota": {
+        "riesgoId": "R-CS-00293-01",
+        "nombre": "Simón",
+        "especie": "gato",
+        "raza": "British Shorthair",
+        "fechaNacimiento": "2020-08-22",
+        "sexo": "macho",
+        "pesoKg": 5.8,
+        "colorSenasParticulares": "Gris azulado uniforme, ojos color cobre",
+        "microchip": "985112000987654"
+      }
+    },
+    {
+      "numeroPoliza": "CS-PET-2024-00410",
+      "sponsorId": "consalud",
+      "businessContractId": "BC-CONSALUD-001",
+      "estado": "activa",
+      "asegurado": {
+        "insuredId": 100003,
+        "businessContractId": "BC-CONSALUD-001",
+        "name": "Carolina",
+        "lastName": "Espinoza Vera",
+        "idNum": "18.234.567-K",
+        "policy": "CS-PET-2024-00410",
+        "address": "Pasaje Las Acacias 45, Villa El Bosque",
+        "province": "Región del Biobío",
+        "locality": "Concepción",
+        "postalCode": "4030000",
+        "countryCd": "CL",
+        "age": 27,
+        "email": "carolina.espinoza@mail.cl",
+        "phone": "+56955551234"
+      },
+      "mascota": {
+        "riesgoId": "R-CS-00410-01",
+        "nombre": "Thor",
+        "especie": "perro",
+        "raza": "Pastor Alemán",
+        "edadEstimada": 6,
+        "sexo": "macho",
+        "pesoKg": 34,
+        "colorSenasParticulares": "Negro y fuego, cicatriz en pata trasera derecha"
+      }
+    },
+    {
+      "numeroPoliza": "CS-PET-2023-00088",
+      "sponsorId": "consalud",
+      "businessContractId": "BC-CONSALUD-001",
+      "estado": "vencida",
+      "asegurado": {
+        "insuredId": 100004,
+        "businessContractId": "BC-CONSALUD-001",
+        "name": "Roberto",
+        "lastName": "Fuentes Díaz",
+        "idNum": "10.111.222-3",
+        "policy": "CS-PET-2023-00088",
+        "address": "Av. Grecia 2500",
+        "province": "Región Metropolitana",
+        "locality": "Ñuñoa",
+        "postalCode": "7750000",
+        "countryCd": "CL",
+        "age": 55,
+        "email": "roberto.fuentes@gmail.com",
+        "phone": "+56922223333"
+      },
+      "mascota": {
+        "riesgoId": "R-CS-00088-01",
+        "nombre": "Mía",
+        "especie": "gato",
+        "raza": "Siamés",
+        "fechaNacimiento": "2019-11-03",
+        "sexo": "hembra",
+        "pesoKg": 3.9,
+        "colorSenasParticulares": "Seal point, ojos azules intensos",
+        "microchip": "985112000111222"
+      }
+    }
+  ],
+  "asistencias": [
+    {
+      "businessClientId": "CONSALUD_CL",
+      "businessContractId": "BC-CONSALUD-001",
+      "insuredId": 100001,
+      "policy": "CS-PET-2024-00147",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Luna presenta vómitos recurrentes desde ayer, no quiere comer",
+      "origin": {
+        "latitude": -33.4265,
+        "longitude": -70.6152,
+        "place": "Av. Providencia 1234, Providencia"
+      },
+      "occurrenceDate": "2024-11-15T14:30:00-03:00",
+      "status": "R",
+      "assistanceId": "AST-CS-2024-001",
+      "requestId": "REQ-CS-2024-001"
+    },
+    {
+      "businessClientId": "CONSALUD_CL",
+      "businessContractId": "BC-CONSALUD-001",
+      "insuredId": 100002,
+      "policy": "CS-PET-2024-00293",
+      "businessServiceId": "ORIENTACION_TELEFONICA",
+      "comment": "Consulta sobre vacunas pendientes de Simón",
+      "origin": {
+        "latitude": -33.412,
+        "longitude": -70.588,
+        "place": "Calle Los Leones 890, Las Condes"
+      },
+      "occurrenceDate": "2024-11-20T09:15:00-03:00",
+      "status": "C",
+      "assistanceId": "AST-CS-2024-002",
+      "requestId": "REQ-CS-2024-002"
+    },
+    {
+      "businessContractId": "BC-CONSALUD-001",
+      "insuredId": 100001,
+      "policy": "CS-PET-2024-00147",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Prueba de asistencia con spec OpenAPI",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.612,
+        "place": "Av Providencia 1234"
+      },
+      "occurrenceDate": "2026-09-12 23:30:00",
+      "businessClientId": "CONSALUD_CL",
+      "status": "L",
+      "assistanceId": "AST-CO-2026-003",
+      "requestId": "REQ-CO-2026-003"
+    },
+    {
+      "businessClientId": "CONSALUD_CL",
+      "businessContractId": "BC-CONSALUD-001",
+      "insuredId": 100001,
+      "policy": "CS-PET-2024-00147",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Luna presenta cojera intensa en la pata derecha tras correr en el parque",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.615,
+        "place": "Av. Providencia 1234, Depto 502"
+      },
+      "occurrenceDate": "2026-09-12 23:55:00",
+      "status": "L",
+      "assistanceId": "AST-CO-2026-004",
+      "requestId": "REQ-CO-2026-004",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Luna"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Golden Retriever"
+        }
+      ]
+    },
+    {
+      "businessClientId": "CONSALUD_CL",
+      "businessContractId": "BC-CONSALUD-001",
+      "insuredId": 100002,
+      "policy": "CS-PET-2024-00293",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "sdvsvfdgbfgdbfgb",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.615,
+        "place": "Calle Los Leones 890"
+      },
+      "occurrenceDate": "2026-09-13 23:40:43",
+      "status": "L",
+      "assistanceId": "AST-CO-2026-005",
+      "requestId": "REQ-CO-2026-005",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Simón"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "gato"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "British Shorthair"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_SEXO",
+          "value": "macho"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_PESO_KG",
+          "value": "5.8"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_COLOR_SENAS",
+          "value": "Gris azulado uniforme, ojos color cobre"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_FECHA_NACIMIENTO",
+          "value": "2020-08-22"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_MICROCHIP",
+          "value": "985112000987654"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-CS-00293-01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sponsorId": "consalud",
+  "subdominio": "consalud",
+  "nombreVisible": "Consalud",
+  "countryId": "CL",
+  "modo": "mock",
+  "activo": true,
+  "lastModifiedBy": "admin",
+  "lastModifiedAt": "2026-09-15T02:47:28.512Z",
+  "tema": {
+    "logoUrl": "/logos/consalud-logo.png?t=1789357637523",
+    "iconos": {
+      "icon192": "/icons/consalud/icon-192x192.png",
+      "icon512": "/icons/consalud/icon-512x512.png",
+      "maskable": "/icons/consalud/icon-maskable.png"
+    },
+    "colores": {
+      "primary": "#006194",
+      "secondary": "#006A63",
+      "accent": "#00a3e0",
+      "background": "#fbf9f5",
+      "surface": "#ffffff",
+      "foreground": "#1c1917"
+    },
+    "fuente": "Plus Jakarta Sans"
+  },
+  "credenciales": {
+    "businessClientId": "CONSALUD_CL",
+    "clientIdEnvVar": "CONSALUD_CLIENT_ID",
+    "clientSecretEnvVar": "CONSALUD_CLIENT_SECRET"
+  }
+}

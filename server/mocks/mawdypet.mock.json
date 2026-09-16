@@ -1,0 +1,682 @@
+{
+  "polizas": [
+    {
+      "numeroPoliza": "MAWDY-PET-2026-00101",
+      "sponsorId": "mawdypet",
+      "businessContractId": "BC-MAWDY-001",
+      "estado": "activa",
+      "asegurado": {
+        "insuredId": 200001,
+        "businessContractId": "BC-MAWDY-001",
+        "name": "Camila Andrea",
+        "lastName": "Valenzuela Silva",
+        "idNum": "16.789.123-4",
+        "policy": "MAWDY-PET-2026-00101",
+        "address": "Av. Las Condes 10200, Depto 402",
+        "province": "Región Metropolitana",
+        "locality": "Las Condes",
+        "postalCode": "7550000",
+        "countryCd": "CL",
+        "age": 31,
+        "email": "camila.valenzuela@correo.cl",
+        "phone": "+56987654321"
+      },
+      "mascota": {
+        "riesgoId": "R-MAWDY-00101-01",
+        "nombre": "Milo",
+        "especie": "perro",
+        "raza": "Border Collie",
+        "fechaNacimiento": "2022-04-10",
+        "sexo": "macho",
+        "pesoKg": 19.5,
+        "colorSenasParticulares": "Blanco y negro con collar reflectante",
+        "microchip": "985112000889901"
+      }
+    },
+    {
+      "numeroPoliza": "MAWDY-PET-2026-00101",
+      "sponsorId": "mawdypet",
+      "businessContractId": "BC-MAWDY-001",
+      "estado": "activa",
+      "asegurado": {
+        "insuredId": 200001,
+        "businessContractId": "BC-MAWDY-001",
+        "name": "Camila Andrea",
+        "lastName": "Valenzuela Silva",
+        "idNum": "16.789.123-4",
+        "policy": "MAWDY-PET-2026-00101",
+        "address": "Av. Las Condes 10200, Depto 402",
+        "province": "Región Metropolitana",
+        "locality": "Las Condes",
+        "postalCode": "7550000",
+        "countryCd": "CL",
+        "age": 31,
+        "email": "camila.valenzuela@correo.cl",
+        "phone": "+56987654321"
+      },
+      "mascota": {
+        "riesgoId": "R-MAWDY-00101-02",
+        "nombre": "Pelusa",
+        "especie": "gato",
+        "raza": "Europeo Común",
+        "fechaNacimiento": "2023-01-15",
+        "sexo": "hembra",
+        "pesoKg": 4.2,
+        "colorSenasParticulares": "Atigrada gris con patitas blancas",
+        "microchip": "985112000889902"
+      }
+    },
+    {
+      "numeroPoliza": "MAWDY-PET-2026-00204",
+      "sponsorId": "mawdypet",
+      "businessContractId": "BC-MAWDY-001",
+      "estado": "activa",
+      "asegurado": {
+        "insuredId": 200002,
+        "businessContractId": "BC-MAWDY-001",
+        "name": "Rodrigo Ignacio",
+        "lastName": "Pizarro Morales",
+        "idNum": "14.567.890-K",
+        "policy": "MAWDY-PET-2026-00204",
+        "address": "Calle Los Alerces 450",
+        "province": "Región Metropolitana",
+        "locality": "Ñuñoa",
+        "postalCode": "7750000",
+        "countryCd": "CL",
+        "age": 38,
+        "email": "rodrigo.pizarro@email.cl",
+        "phone": "+56998765432"
+      },
+      "mascota": {
+        "riesgoId": "R-MAWDY-00204-01",
+        "nombre": "Bruno",
+        "especie": "perro",
+        "raza": "Labrador Retriever",
+        "fechaNacimiento": "2021-08-20",
+        "sexo": "macho",
+        "pesoKg": 31,
+        "colorSenasParticulares": "Negro sólido con mancha blanca en pecho",
+        "microchip": "985112000889903"
+      }
+    }
+  ],
+  "asistencias": [
+    {
+      "assistanceId": "AST-MAWDY-2026-001",
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "policy": "MAWDY-PET-2026-00101",
+      "insuredId": 200001,
+      "assistanceType": "CONSULTA_VETERINARIA",
+      "status": "RESUELTA",
+      "statusDescription": "Atención completada con éxito",
+      "occurrenceDate": "2026-02-10T14:30:00.000Z",
+      "requestDate": "2026-02-10T14:00:00.000Z",
+      "address": "Av. Las Condes 10200, Depto 402",
+      "contactPhone": "+56987654321",
+      "description": "Control de rutina y vacunación anual para Milo en convenio con Mawdy Pet.",
+      "mascota": {
+        "riesgoId": "R-MAWDY-00101-01",
+        "nombre": "Milo",
+        "especie": "perro",
+        "raza": "Border Collie"
+      }
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-FALABELLA-001",
+      "insuredId": 200001,
+      "policy": "FALABELLA-PET-2026-00101",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Mi mascota no puede levantarse tras una caída",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.612,
+        "place": "Av. Las Condes 10200, Las Condes"
+      },
+      "occurrenceDate": "2026-09-15T17:17:40.356Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-002",
+      "requestId": "REQ-MA-2026-002",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Border Collie"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-FALABELLA-00101-01"
+        },
+        {
+          "businessAttributeCd": "CODIGO_GARANTIA",
+          "value": "GAR_FAL_01"
+        },
+        {
+          "businessAttributeCd": "PRODUCTO_AMA",
+          "value": "AMA-PET-FAL-01"
+        }
+      ]
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "insuredId": 200001,
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Prueba de asistencia veterinaria",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.612,
+        "place": "Las Condes"
+      },
+      "occurrenceDate": "2026-09-15T19:51:24.126Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-003",
+      "requestId": "REQ-MA-2026-003",
+      "attributes": []
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "insuredId": 200001,
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "TELEMEDICINA",
+      "comment": "Prueba con OpenStreetMap y persistencia en Supabase",
+      "origin": {
+        "latitude": -33.42512,
+        "longitude": -70.61245,
+        "place": "Av. Providencia 1234, Providencia, Región Metropolitana"
+      },
+      "occurrenceDate": "2026-09-15T22:43:18.928Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-004",
+      "requestId": "REQ-MA-2026-004",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Border Collie"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-MAWDY-00101-01"
+        },
+        {
+          "businessAttributeCd": "CODIGO_GARANTIA",
+          "value": "GAR-TEL-03"
+        },
+        {
+          "businessAttributeCd": "PRODUCTO_AMA",
+          "value": "AMA-PET-CL-01"
+        }
+      ]
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "insuredId": 200001,
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "TELEMEDICINA",
+      "comment": "Telemedicina para Milo - Tos persistente",
+      "origin": {
+        "latitude": -33.42512,
+        "longitude": -70.61245,
+        "place": "Av. Providencia 1234, Providencia, Región Metropolitana"
+      },
+      "occurrenceDate": "2026-09-15T22:45:12.176Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-005",
+      "requestId": "REQ-MA-2026-005",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Border Collie"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-MAWDY-00101-01"
+        },
+        {
+          "businessAttributeCd": "CODIGO_GARANTIA",
+          "value": "GAR-TEL-03"
+        },
+        {
+          "businessAttributeCd": "PRODUCTO_AMA",
+          "value": "AMA-PET-CL-01"
+        }
+      ]
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "insuredId": 200001,
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "TELEMEDICINA",
+      "comment": "Telemedicina para Milo - Consulta dermatológica",
+      "origin": {
+        "latitude": -33.42512,
+        "longitude": -70.61245,
+        "place": "Av. Providencia 1234, Providencia, Región Metropolitana"
+      },
+      "occurrenceDate": "2026-09-15T22:46:42.394Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-006",
+      "requestId": "REQ-MA-2026-006",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Border Collie"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-MAWDY-00101-01"
+        },
+        {
+          "businessAttributeCd": "CODIGO_GARANTIA",
+          "value": "GAR-TEL-03"
+        },
+        {
+          "businessAttributeCd": "PRODUCTO_AMA",
+          "value": "AMA-PET-CL-01"
+        }
+      ]
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "insuredId": 200001,
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "prueba",
+      "origin": {
+        "latitude": -33.4550645,
+        "longitude": -70.70458775,
+        "place": "13, Santa Petronila, Villa Las Mercedes, Estación Central, Santiago, Provincia de Santiago, Región Metropolitana de Santiago, 8320000, Chile"
+      },
+      "occurrenceDate": "2026-09-15T22:49:59.448Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-007",
+      "requestId": "REQ-MA-2026-007",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Border Collie"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-MAWDY-00101-01"
+        },
+        {
+          "businessAttributeCd": "CODIGO_GARANTIA",
+          "value": "GAR-URG-01"
+        },
+        {
+          "businessAttributeCd": "PRODUCTO_AMA",
+          "value": "AMA-PET-CL-01"
+        }
+      ]
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "insuredId": 200001,
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Presenta decaimiento y dolor estomacal tras ingerir alimento nuevo. Se requiere evaluación veterinaria urgente.",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.612,
+        "place": "Av. Las Condes 10200, Depto 402, Las Condes, Región Metropolitana"
+      },
+      "occurrenceDate": "2026-09-15T23:10:25.316Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-008",
+      "requestId": "REQ-MA-2026-008",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Border Collie"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-MAWDY-00101-01"
+        },
+        {
+          "businessAttributeCd": "CODIGO_GARANTIA",
+          "value": "GAR-URG-01"
+        },
+        {
+          "businessAttributeCd": "PRODUCTO_AMA",
+          "value": "AMA-PET-CL-01"
+        }
+      ]
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "insuredId": 200001,
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Presenta decaimiento y dolor abdominal desde esta tarde tras paseo. Se solicita evaluación clínica veterinaria urgente.",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.612,
+        "place": "Av. Las Condes 10200, Depto 402, Las Condes, Región Metropolitana"
+      },
+      "occurrenceDate": "2026-09-15T23:14:12.377Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-009",
+      "requestId": "REQ-MA-2026-009",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Border Collie"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-MAWDY-00101-01"
+        },
+        {
+          "businessAttributeCd": "CODIGO_GARANTIA",
+          "value": "GAR-URG-01"
+        },
+        {
+          "businessAttributeCd": "PRODUCTO_AMA",
+          "value": "AMA-PET-CL-01"
+        }
+      ]
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "insuredId": 200001,
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Milo presenta cuadro de decaimiento y vómito desde hace dos horas.",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.612,
+        "place": "Av. Las Condes 10200, Depto 402, Las Condes, Región Metropolitana"
+      },
+      "occurrenceDate": "2026-09-15T23:15:11.723Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-010",
+      "requestId": "REQ-MA-2026-010",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Border Collie"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-MAWDY-00101-01"
+        },
+        {
+          "businessAttributeCd": "CODIGO_GARANTIA",
+          "value": "GAR-URG-01"
+        },
+        {
+          "businessAttributeCd": "PRODUCTO_AMA",
+          "value": "AMA-PET-CL-01"
+        }
+      ]
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "insuredId": 200001,
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Milo presenta cuadro de decaimiento y vómito desde hace dos horas. Requiere evaluación médica.",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.612,
+        "place": "Av. Las Condes 10200, Depto 402, Las Condes, Región Metropolitana"
+      },
+      "occurrenceDate": "2026-09-15T23:16:19.543Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-011",
+      "requestId": "REQ-MA-2026-011",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Border Collie"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-MAWDY-00101-01"
+        },
+        {
+          "businessAttributeCd": "CODIGO_GARANTIA",
+          "value": "GAR-URG-01"
+        },
+        {
+          "businessAttributeCd": "PRODUCTO_AMA",
+          "value": "AMA-PET-CL-01"
+        }
+      ]
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "insuredId": 200001,
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Milo presenta vómitos reiterados desde esta tarde tras paseo por la plaza. Requiere atención veterinaria urgente.",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.612,
+        "place": "Av. Las Condes 10200, Depto 402, Las Condes, Región Metropolitana"
+      },
+      "occurrenceDate": "2026-09-15T23:18:37.822Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-012",
+      "requestId": "REQ-MA-2026-012",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Border Collie"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-MAWDY-00101-01"
+        },
+        {
+          "businessAttributeCd": "CODIGO_GARANTIA",
+          "value": "GAR-URG-01"
+        },
+        {
+          "businessAttributeCd": "PRODUCTO_AMA",
+          "value": "AMA-PET-CL-01"
+        }
+      ]
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "DEFAULT_BC",
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Prueba directa de asistencia desde navegador",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.612,
+        "place": "Av. Las Condes 10200"
+      },
+      "occurrenceDate": "2026-09-15T23:19:11.104Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-013",
+      "requestId": "REQ-MA-2026-013",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        }
+      ]
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "insuredId": 200001,
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Milo presenta vómitos y decaimiento general desde esta tarde.",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.612,
+        "place": "Av. Las Condes 10200, Depto 402, Las Condes, Región Metropolitana"
+      },
+      "occurrenceDate": "2026-09-15T23:19:45.648Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-014",
+      "requestId": "REQ-MA-2026-014",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Border Collie"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-MAWDY-00101-01"
+        },
+        {
+          "businessAttributeCd": "CODIGO_GARANTIA",
+          "value": "GAR-URG-01"
+        },
+        {
+          "businessAttributeCd": "PRODUCTO_AMA",
+          "value": "AMA-PET-CL-01"
+        }
+      ]
+    },
+    {
+      "businessClientId": "MAWDY_CL",
+      "businessContractId": "BC-MAWDY-001",
+      "insuredId": 200001,
+      "policy": "MAWDY-PET-2026-00101",
+      "businessServiceId": "CONSULTA_URGENTE",
+      "comment": "Milo presenta vómitos reiterados desde esta tarde tras paseo.",
+      "origin": {
+        "latitude": -33.425,
+        "longitude": -70.612,
+        "place": "Av. Las Condes 10200, Depto 402, Las Condes, Región Metropolitana"
+      },
+      "occurrenceDate": "2026-09-15T23:21:36.686Z",
+      "status": "L",
+      "assistanceId": "AST-MA-2026-015",
+      "requestId": "REQ-MA-2026-015",
+      "attributes": [
+        {
+          "businessAttributeCd": "MASCOTA_NOMBRE",
+          "value": "Milo"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_ESPECIE",
+          "value": "perro"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RAZA",
+          "value": "Border Collie"
+        },
+        {
+          "businessAttributeCd": "MASCOTA_RIESGO_ID",
+          "value": "R-MAWDY-00101-01"
+        },
+        {
+          "businessAttributeCd": "CODIGO_GARANTIA",
+          "value": "GAR-URG-01"
+        },
+        {
+          "businessAttributeCd": "PRODUCTO_AMA",
+          "value": "AMA-PET-CL-01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <!-- Mawdy Geometric Emblem -->
+  <g transform="translate(6, 6)">
+    <rect width="36" height="36" rx="8" fill="#d81e05"/>
+    <path d="M10 26L18 10L26 26L22 26L18 18L14 26H10Z" fill="#ffffff"/>
+    <circle cx="18" cy="14" r="2.5" fill="#ffffff"/>
+  </g>
+  <!-- Brand Text: MAWDY -->
+  <text x="52" y="27" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="20" font-weight="900" fill="#0f172a" letter-spacing="-0.5">
+    MAWDY
+  </text>
+  <!-- Subtext: Pet Assistance -->
+  <text x="52" y="38" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="9" font-weight="700" fill="#64748b" letter-spacing="1.5">
+    PET ASSISTANCE
+  </text>
+</svg>

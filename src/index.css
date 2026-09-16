@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--tenant-primary, #006194);
+  --color-secondary: var(--tenant-secondary, #006a63);
+  --color-accent: var(--tenant-accent, #007bb9);
+  --color-background: var(--tenant-background, #fbf9f5);
+  --color-canvas: var(--tenant-background, #fbf9f5);
+  --color-surface: var(--tenant-surface, #ffffff);
+  --color-foreground: var(--tenant-foreground, #1c1917);
+  --color-border: #e7e3da;
+
+  /* Superficies cálidas orgánicas (Warm Linen & Stone) */
+  --color-surface-warm: #ffffff;
+  --color-surface-tinted: #f5f2ec;
+  --color-surface-subtle: #ede9e0;
+  --color-border-warm: #e7e3da;
+  --color-border-hairline: #eeeae3;
+
+  /* Tokens semánticos universales inmutables por sponsor */
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
+  --color-info: #0284c7;
+  --color-emergency: #e11d48;
+  --color-neutral: #78716c;
+
+  /* Escala de radios estricta de 3 niveles: sm (6px), md (10px), lg (16px) */
+  --radius-sm: 0.375rem; /* 6px */
+  --radius-md: 0.625rem; /* 10px */
+  --radius-lg: 1.0rem;   /* 16px */
+  --radius-pill: 9999px; /* exclusivo para avatares e indicadores de dot */
+
+  /* Compatibilidad con clases existentes */
+  --radius-container: 1.0rem;
+  --radius-card: 1.0rem;
+  --radius-control: 0.625rem;
+
+  /* Tipografía única unificada para todo el producto */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-headline: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-mawdy: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Tokens corporativos Mawdy (CRM / Consola Backoffice) */
+  --color-mawdy-red: #d81e05;
+  --color-mawdy-red-dark: #ac0404;
+  --color-mawdy-charcoal: #2d373d;
+  --color-mawdy-slate: #526570;
+  --color-mawdy-muted: #89969a;
+  --color-mawdy-border: #e8ebed;
+  --color-mawdy-border-dark: #d2d4cf;
+  --color-mawdy-bg: #f5f6f7;
+  --color-mawdy-bg-light: #f0f0f0;
+}
+
+/* Reset base y layout mobile-first */
+body {
+  margin: 0;
+  background-color: var(--tenant-background, #fbf9f5);
+  color: var(--tenant-foreground, #1c1917);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, .font-headline {
+  font-family: var(--font-headline);
+}
+
+/* Accesibilidad WCAG: Foco visible de alto contraste */
+:focus-visible {
+  outline: 2px solid var(--tenant-primary, #006194);
+  outline-offset: 2px;
+}
+
+/* Safe areas para PWA iOS y Android */
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Accesibilidad: Escala tipográfica dinámica (A- / A / A+) */
+html[data-text-scale="sm"] {
+  font-size: 14px;
+}
+html[data-text-scale="md"] {
+  font-size: 16px;
+}
+html[data-text-scale="lg"] {
+  font-size: 18px;
+}
+
+/* Escala de Iconografía Estándar de Mawdy Pet */
+.icon-xs {
+  width: 12px;
+  height: 12px;
+}
+.icon-sm {
+  width: 16px;
+  height: 16px;
+}
+.icon-md {
+  width: 20px;
+  height: 20px;
+}
+.icon-lg {
+  width: 24px;
+  height: 24px;
+}
+.icon-xl {
+  width: 32px;
+  height: 32px;
+}
+
+/* Utilidades 3D Flip Card */
+.perspective-1000 {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+

@@ -1,0 +1,126 @@
+{
+  "polizas": [
+    {
+      "numeroPoliza": "FALABELLA-PET-2026-00101",
+      "sponsorId": "falabella",
+      "businessContractId": "BC-FALABELLA-001",
+      "estado": "activa",
+      "asegurado": {
+        "insuredId": 200001,
+        "businessContractId": "BC-FALABELLA-001",
+        "name": "Camila Andrea",
+        "lastName": "Valenzuela Silva",
+        "idNum": "16.789.123-4",
+        "policy": "FALABELLA-PET-2026-00101",
+        "address": "Av. Las Condes 10200, Depto 402",
+        "province": "Región Metropolitana",
+        "locality": "Las Condes",
+        "postalCode": "7550000",
+        "countryCd": "CL",
+        "age": 31,
+        "email": "camila.valenzuela@correo.cl",
+        "phone": "+56987654321"
+      },
+      "mascota": {
+        "riesgoId": "R-FALABELLA-00101-01",
+        "nombre": "Milo",
+        "especie": "perro",
+        "raza": "Border Collie",
+        "fechaNacimiento": "2022-04-10",
+        "sexo": "macho",
+        "pesoKg": 19.5,
+        "colorSenasParticulares": "Blanco y negro con collar reflectante",
+        "microchip": "985112000889901"
+      }
+    },
+    {
+      "numeroPoliza": "FALABELLA-PET-2026-00101",
+      "sponsorId": "falabella",
+      "businessContractId": "BC-FALABELLA-001",
+      "estado": "activa",
+      "asegurado": {
+        "insuredId": 200001,
+        "businessContractId": "BC-FALABELLA-001",
+        "name": "Camila Andrea",
+        "lastName": "Valenzuela Silva",
+        "idNum": "16.789.123-4",
+        "policy": "FALABELLA-PET-2026-00101",
+        "address": "Av. Las Condes 10200, Depto 402",
+        "province": "Región Metropolitana",
+        "locality": "Las Condes",
+        "postalCode": "7550000",
+        "countryCd": "CL",
+        "age": 31,
+        "email": "camila.valenzuela@correo.cl",
+        "phone": "+56987654321"
+      },
+      "mascota": {
+        "riesgoId": "R-FALABELLA-00101-02",
+        "nombre": "Pelusa",
+        "especie": "gato",
+        "raza": "Europeo Común",
+        "fechaNacimiento": "2023-01-15",
+        "sexo": "hembra",
+        "pesoKg": 4.2,
+        "colorSenasParticulares": "Atigrada gris con patitas blancas",
+        "microchip": "985112000889902"
+      }
+    },
+    {
+      "numeroPoliza": "FALABELLA-PET-2026-00204",
+      "sponsorId": "falabella",
+      "businessContractId": "BC-FALABELLA-001",
+      "estado": "activa",
+      "asegurado": {
+        "insuredId": 200002,
+        "businessContractId": "BC-FALABELLA-001",
+        "name": "Rodrigo Ignacio",
+        "lastName": "Pizarro Morales",
+        "idNum": "14.567.890-K",
+        "policy": "FALABELLA-PET-2026-00204",
+        "address": "Calle Los Alerces 450",
+        "province": "Región Metropolitana",
+        "locality": "Ñuñoa",
+        "postalCode": "7750000",
+        "countryCd": "CL",
+        "age": 38,
+        "email": "rodrigo.pizarro@email.cl",
+        "phone": "+56998765432"
+      },
+      "mascota": {
+        "riesgoId": "R-FALABELLA-00204-01",
+        "nombre": "Bruno",
+        "especie": "perro",
+        "raza": "Labrador Retriever",
+        "fechaNacimiento": "2021-08-20",
+        "sexo": "macho",
+        "pesoKg": 31,
+        "colorSenasParticulares": "Negro sólido con mancha blanca en pecho",
+        "microchip": "985112000889903"
+      }
+    }
+  ],
+  "asistencias": [
+    {
+      "assistanceId": "AST-FALABELLA-2026-001",
+      "businessClientId": "FALABELLA_CL",
+      "businessContractId": "BC-FALABELLA-001",
+      "policy": "FALABELLA-PET-2026-00101",
+      "insuredId": 200001,
+      "assistanceType": "CONSULTA_VETERINARIA",
+      "status": "RESUELTA",
+      "statusDescription": "Atención completada",
+      "occurrenceDate": "2026-09-15T02:27:09.264Z",
+      "requestDate": "2026-09-15T02:27:09.264Z",
+      "address": "Av. Las Condes 10200, Depto 402",
+      "contactPhone": "+56987654321",
+      "description": "Control de rutina y vacunación anual para Milo en convenio con Seguros Falabella.",
+      "mascota": {
+        "riesgoId": "R-FALABELLA-00101-01",
+        "nombre": "Milo",
+        "especie": "perro",
+        "raza": "Border Collie"
+      }
+    }
+  ]
+}

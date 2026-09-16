@@ -1,0 +1,43 @@
+{
+  "sponsorId": "mawdypet",
+  "subdominio": "mawdypet",
+  "nombreVisible": "Mawdy Pet",
+  "countryId": "CL",
+  "modo": "mock",
+  "activo": true,
+  "lastModifiedBy": "Administrador Mawdy",
+  "lastModifiedAt": "2026-09-15T03:23:53.099Z",
+  "tema": {
+    "logoUrl": "/logos/mawdypet-logo.png?t=1789442630759",
+    "iconos": {
+      "icon192": "/icons/mawdypet/icon-192x192.png",
+      "icon512": "/icons/mawdypet/icon-512x512.png",
+      "maskable": "/icons/mawdypet/icon-maskable.png"
+    },
+    "colores": {
+      "primary": "#006194",
+      "secondary": "#006a63",
+      "accent": "#00a3e0",
+      "background": "#fbf9f5",
+      "surface": "#ffffff",
+      "foreground": "#1c1917"
+    },
+    "fuente": "Plus Jakarta Sans",
+    "fichaMascota": {
+      "lema": "Carnet Digital de Mascota Asegurada",
+      "estiloTarjeta": "linen",
+      "mostrarSelloWatermark": true,
+      "mostrarMicrochip": true,
+      "mostrarVacunas": true,
+      "mostrarAlergias": true,
+      "mostrarVeterinario": true,
+      "mostrarCoberturas": true,
+      "mensajeAsistencia": "En caso de urgencia médica 24/7 o extravío de tu mascota, comunícate de inmediato a través de este portal o al 600-MAWDY-PET."
+    }
+  },
+  "credenciales": {
+    "businessClientId": "MAWDY_CL",
+    "clientIdEnvVar": "MAWDY_CLIENT_ID",
+    "clientSecretEnvVar": "MAWDY_CLIENT_SECRET"
+  }
+}
