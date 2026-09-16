@@ -28,7 +28,7 @@ export const MawdyBrandLogo: React.FC<MawdyBrandLogoProps> = ({
         <>
           <span className="text-[#89969a] text-lg font-light select-none">/</span>
           <span className="text-xs font-bold tracking-wider text-[#526570] uppercase font-sans">
-            MINERVA
+            PET
           </span>
         </>
       )}

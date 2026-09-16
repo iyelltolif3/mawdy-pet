@@ -6,7 +6,7 @@
   "modo": "mock",
   "activo": true,
   "lastModifiedBy": "Administrador Mawdy",
-  "lastModifiedAt": "2026-09-15T03:23:53.099Z",
+  "lastModifiedAt": "2026-09-16T14:09:24.646Z",
   "tema": {
     "logoUrl": "/logos/mawdypet-logo.png?t=1789442630759",
     "iconos": {
@@ -15,14 +15,14 @@
       "maskable": "/icons/mawdypet/icon-maskable.png"
     },
     "colores": {
-      "primary": "#006194",
-      "secondary": "#006a63",
+      "primary": "#D81E05",
+      "secondary": "#212529",
       "accent": "#00a3e0",
       "background": "#fbf9f5",
       "surface": "#ffffff",
       "foreground": "#1c1917"
     },
-    "fuente": "Plus Jakarta Sans",
+    "fuente": "Roboto",
     "fichaMascota": {
       "lema": "Carnet Digital de Mascota Asegurada",
       "estiloTarjeta": "linen",
@@ -39,5 +39,67 @@
     "businessClientId": "MAWDY_CL",
     "clientIdEnvVar": "MAWDY_CLIENT_ID",
     "clientSecretEnvVar": "MAWDY_CLIENT_SECRET"
+  },
+  "productoAma": {
+    "productoId": "AMA-PET-CL-01",
+    "nombreProducto": "Asistencia Integral Mascotas Mawdy Pet",
+    "polizaColectiva": "POL-MAWDY-PET-2026",
+    "servicios": [
+      {
+        "id": "consulta-urgencia",
+        "nombre": "Consulta Veterinaria de Urgencia 24/7",
+        "descripcion": "Atención presencial inmediata en red de clínicas asociadas por accidente, cuadro agudo o riesgo vital.",
+        "icono": "Siren",
+        "codigoServicio": "CONSULTA_URGENTE",
+        "codigoGarantia": "GAR-URG-01",
+        "limiteEventos": "3 eventos al año",
+        "copagoOTope": "100% cubierto hasta 3 UF por evento",
+        "activo": true
+      },
+      {
+        "id": "veterinario-domicilio",
+        "nombre": "Médico Veterinario a Domicilio",
+        "descripcion": "Atención clínica veterinaria programada o de urgencia en la comodidad de tu hogar.",
+        "icono": "Home",
+        "codigoServicio": "VETERINARIO_DOMICILIO",
+        "codigoGarantia": "GAR-DOM-02",
+        "limiteEventos": "2 eventos al año",
+        "copagoOTope": "100% cubierto sin copago",
+        "activo": true
+      },
+      {
+        "id": "telemedicina-vet",
+        "nombre": "Orientación Veterinaria Telefónica y Videoconsulta",
+        "descripcion": "Resolución de dudas médicas, pautas de primeros auxilios y orientación farmacológica 24/7.",
+        "icono": "PhoneCall",
+        "codigoServicio": "ORIENTACION_TELEFONICA",
+        "codigoGarantia": "GAR-TEL-03",
+        "limiteEventos": "Sin límite de uso",
+        "copagoOTope": "Sin costo / $0 copago",
+        "activo": true
+      },
+      {
+        "id": "vacunacion-preventiva",
+        "nombre": "Vacunación y Desparasitación Anual",
+        "descripcion": "Aplicación de vacuna antirrábica u óctuple/séxtuple y desparasitación interna en clínica en convenio.",
+        "icono": "Syringe",
+        "codigoServicio": "OTRO",
+        "codigoGarantia": "GAR-PREV-04",
+        "limiteEventos": "1 evento al año",
+        "copagoOTope": "Cobertura 100% arancel preferencial",
+        "activo": true
+      },
+      {
+        "id": "hospedaje-mascota",
+        "nombre": "Hospedaje por Hospitalización del Asegurado",
+        "descripcion": "Alojamiento en guardería o residencia canina/felina en caso de hospitalización imprevista del titular.",
+        "icono": "Home",
+        "codigoServicio": "OTRO",
+        "codigoGarantia": "GAR-HOSP-05",
+        "limiteEventos": "Hasta 5 días continuos",
+        "copagoOTope": "Tope $30.000 CLP / día",
+        "activo": true
+      }
+    ]
   }
 }

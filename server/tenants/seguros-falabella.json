@@ -1,51 +1,17 @@
 {
-  "sponsorId": "consalud",
-  "subdominio": "consalud",
-  "nombreVisible": "Consalud",
+  "sponsorId": "seguros-falabella",
+  "subdominio": "seguros-falabella",
+  "nombreVisible": "Seguros Falabella",
   "countryId": "CL",
   "modo": "mock",
   "activo": true,
   "lastModifiedBy": "admin",
-  "lastModifiedAt": "2026-09-16T13:42:16.253Z",
-  "tema": {
-    "logoUrl": "/logos/consalud-logo.png?t=1789357637523",
-    "iconos": {
-      "icon192": "/icons/consalud/icon-192x192.png",
-      "icon512": "/icons/consalud/icon-512x512.png",
-      "maskable": "/icons/consalud/icon-maskable.png"
-    },
-    "colores": {
-      "primary": "#00B398",
-      "secondary": "#00B398",
-      "accent": "#00a3e0",
-      "background": "#fbf9f5",
-      "surface": "#ffffff",
-      "foreground": "#1c1917"
-    },
-    "fuente": "Roboto",
-    "fichaMascota": {}
-  },
-  "credenciales": {
-    "businessClientId": "CONSALUD_CL",
-    "clientIdEnvVar": "CONSALUD_CLIENT_ID",
-    "clientSecretEnvVar": "CONSALUD_CLIENT_SECRET"
-  },
+  "lastModifiedAt": "2026-09-16T14:09:51.330Z",
   "productoAma": {
     "productoId": "AMA-PET-CL-01",
-    "nombreProducto": "Asistencia Integral Mascotas Consalud",
+    "nombreProducto": "Asistencia Integral Mascotas Seguros Falabella",
     "polizaColectiva": "POL-MAWDY-PET-2026",
     "servicios": [
-      {
-        "id": "consulta-urgencia",
-        "nombre": "Consulta Veterinaria de Urgencia 24/7",
-        "descripcion": "Atención presencial inmediata en red de clínicas asociadas por accidente, cuadro agudo o riesgo vital.",
-        "icono": "Siren",
-        "codigoServicio": "CONSULTA_URGENTE",
-        "codigoGarantia": "GAR-URG-01",
-        "limiteEventos": "3 eventos al año",
-        "copagoOTope": "100% cubierto hasta 3 UF por evento",
-        "activo": true
-      },
       {
         "id": "veterinario-domicilio",
         "nombre": "Médico Veterinario a Domicilio",
@@ -90,6 +56,30 @@
         "copagoOTope": "Tope $30.000 CLP / día",
         "activo": true
       }
-    ]
+    ],
+    "colectivoPolizaMarco": "POL-FAL-MAWDY-2026",
+    "lineaAsistencia": "Mascotas"
+  },
+  "tema": {
+    "logoUrl": "/logos/seguros-falabella-logo.svg?t=1789567584351",
+    "fuente": "Roboto",
+    "colores": {
+      "primary": "#AAD63E",
+      "secondary": "#343a40",
+      "accent": "\t#AAD63E",
+      "background": "#fbf9f5",
+      "surface": "#ffffff",
+      "foreground": "#1c1917"
+    },
+    "iconos": {},
+    "fichaMascota": {
+      "lema": "Carnet",
+      "mensajeAsistencia": "En caso de urgencia médica 24/7 o extravío de tu mascota, comunícate de inmediato a través de este portal o al 600-MAWDY-PET."
+    }
+  },
+  "credenciales": {
+    "businessClientId": "SEGUROS-FALABELLA_CL",
+    "clientIdEnvVar": "SEGUROS-FALABELLA_CLIENT_ID",
+    "clientSecretEnvVar": "SEGUROS-FALABELLA_CLIENT_SECRET"
   }
 }

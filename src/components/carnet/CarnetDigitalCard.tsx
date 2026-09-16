@@ -160,7 +160,7 @@ export default function CarnetDigitalCard({
                 <div className="h-4 w-px bg-stone-300/80" />
                 <div>
                   <span className="text-xs font-bold font-serif tracking-tight text-stone-700 block">
-                    {nombreSponsor} Pet
+                    {nombreSponsor}
                   </span>
                   <span className="text-[9px] text-stone-400 font-medium tracking-wide uppercase block">
                     {lema}

@@ -1,17 +1,17 @@
 {
   "polizas": [
     {
-      "numeroPoliza": "FALABELLA-PET-2026-00101",
-      "sponsorId": "falabella",
-      "businessContractId": "BC-FALABELLA-001",
+      "numeroPoliza": "SEGUROS-FALABELLA-PET-2026-00101",
+      "sponsorId": "seguros-falabella",
+      "businessContractId": "BC-SEGUROS-FALABELLA-001",
       "estado": "activa",
       "asegurado": {
         "insuredId": 200001,
-        "businessContractId": "BC-FALABELLA-001",
+        "businessContractId": "BC-SEGUROS-FALABELLA-001",
         "name": "Camila Andrea",
         "lastName": "Valenzuela Silva",
         "idNum": "16.789.123-4",
-        "policy": "FALABELLA-PET-2026-00101",
+        "policy": "SEGUROS-FALABELLA-PET-2026-00101",
         "address": "Av. Las Condes 10200, Depto 402",
         "province": "Región Metropolitana",
         "locality": "Las Condes",
@@ -22,7 +22,7 @@
         "phone": "+56987654321"
       },
       "mascota": {
-        "riesgoId": "R-FALABELLA-00101-01",
+        "riesgoId": "R-SEGUROS-FALABELLA-00101-01",
         "nombre": "Milo",
         "especie": "perro",
         "raza": "Border Collie",
@@ -34,17 +34,17 @@
       }
     },
     {
-      "numeroPoliza": "FALABELLA-PET-2026-00101",
-      "sponsorId": "falabella",
-      "businessContractId": "BC-FALABELLA-001",
+      "numeroPoliza": "SEGUROS-FALABELLA-PET-2026-00101",
+      "sponsorId": "seguros-falabella",
+      "businessContractId": "BC-SEGUROS-FALABELLA-001",
       "estado": "activa",
       "asegurado": {
         "insuredId": 200001,
-        "businessContractId": "BC-FALABELLA-001",
+        "businessContractId": "BC-SEGUROS-FALABELLA-001",
         "name": "Camila Andrea",
         "lastName": "Valenzuela Silva",
         "idNum": "16.789.123-4",
-        "policy": "FALABELLA-PET-2026-00101",
+        "policy": "SEGUROS-FALABELLA-PET-2026-00101",
         "address": "Av. Las Condes 10200, Depto 402",
         "province": "Región Metropolitana",
         "locality": "Las Condes",
@@ -55,7 +55,7 @@
         "phone": "+56987654321"
       },
       "mascota": {
-        "riesgoId": "R-FALABELLA-00101-02",
+        "riesgoId": "R-SEGUROS-FALABELLA-00101-02",
         "nombre": "Pelusa",
         "especie": "gato",
         "raza": "Europeo Común",
@@ -67,17 +67,17 @@
       }
     },
     {
-      "numeroPoliza": "FALABELLA-PET-2026-00204",
-      "sponsorId": "falabella",
-      "businessContractId": "BC-FALABELLA-001",
+      "numeroPoliza": "SEGUROS-FALABELLA-PET-2026-00204",
+      "sponsorId": "seguros-falabella",
+      "businessContractId": "BC-SEGUROS-FALABELLA-001",
       "estado": "activa",
       "asegurado": {
         "insuredId": 200002,
-        "businessContractId": "BC-FALABELLA-001",
+        "businessContractId": "BC-SEGUROS-FALABELLA-001",
         "name": "Rodrigo Ignacio",
         "lastName": "Pizarro Morales",
         "idNum": "14.567.890-K",
-        "policy": "FALABELLA-PET-2026-00204",
+        "policy": "SEGUROS-FALABELLA-PET-2026-00204",
         "address": "Calle Los Alerces 450",
         "province": "Región Metropolitana",
         "locality": "Ñuñoa",
@@ -88,7 +88,7 @@
         "phone": "+56998765432"
       },
       "mascota": {
-        "riesgoId": "R-FALABELLA-00204-01",
+        "riesgoId": "R-SEGUROS-FALABELLA-00204-01",
         "nombre": "Bruno",
         "especie": "perro",
         "raza": "Labrador Retriever",
@@ -102,21 +102,21 @@
   ],
   "asistencias": [
     {
-      "assistanceId": "AST-FALABELLA-2026-001",
-      "businessClientId": "FALABELLA_CL",
-      "businessContractId": "BC-FALABELLA-001",
-      "policy": "FALABELLA-PET-2026-00101",
+      "assistanceId": "AST-SEGUROS-FALABELLA-2026-001",
+      "businessClientId": "SEGUROS-FALABELLA_CL",
+      "businessContractId": "BC-SEGUROS-FALABELLA-001",
+      "policy": "SEGUROS-FALABELLA-PET-2026-00101",
       "insuredId": 200001,
       "assistanceType": "CONSULTA_VETERINARIA",
       "status": "RESUELTA",
       "statusDescription": "Atención completada",
-      "occurrenceDate": "2026-09-15T02:27:09.264Z",
-      "requestDate": "2026-09-15T02:27:09.264Z",
+      "occurrenceDate": "2026-09-16T14:06:24.296Z",
+      "requestDate": "2026-09-16T14:06:24.296Z",
       "address": "Av. Las Condes 10200, Depto 402",
       "contactPhone": "+56987654321",
       "description": "Control de rutina y vacunación anual para Milo en convenio con Seguros Falabella.",
       "mascota": {
-        "riesgoId": "R-FALABELLA-00101-01",
+        "riesgoId": "R-SEGUROS-FALABELLA-00101-01",
         "nombre": "Milo",
         "especie": "perro",
         "raza": "Border Collie"
